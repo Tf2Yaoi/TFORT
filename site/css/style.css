@@ -8,14 +8,24 @@ body {
     margin: 0px;
     padding: 0;
     background-image: url(../images/background_2fort_widescreen.png);
+    background-size: 1920px 1080px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
+.mercs {
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    right: 0px;
+}
+
 .wrapper {
-    margin: 3rem auto 1rem auto;
+    float: left;
+    margin-left: 15em;
+    margin-top: 4em;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -84,27 +94,18 @@ a {
 }
 
 iframe {
-    position: absolute;
-    top: 80px;
-    left: 430px;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-}
-
-iframe {
     height: 100px;
     width: 100px;
     position: absolute;
     z-index: 1;
-    left: 320px;
+    left: 8em;
     top: 300px;
 }
 
 .ringlink {
     position: absolute;
     z-index: 1;
-    left: 320px;
+    left: 8.5em;
     top: 405px;
 }
 
