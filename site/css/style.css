@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     padding: 0;
-    background-image: url(/images/background_2fort_widescreen.png);
+    background-image: url(../images/background_2fort_widescreen.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26,12 +26,12 @@ body {
 
 .border {
     border: 9px solid black;
-    border-image: url(/site/images/border2.png) 8 fill round;
+    border-image: url(../images/border2.png) 8 fill round;
 }
 
 .wrap {
     text-align: center;
-background-image: url(/site/images/bg2.png);
+background-image: url(../images/bg2.png);
 background-position:right top;
     outline: 3px solid #ffffff;
     width: 30em;
@@ -45,7 +45,7 @@ background-position:right top;
     border: 1px solid black;
     border-radius: 5px;
     margin: 5px;
-    background-image: url(/site/images/nav_bar.png);
+    background-image: url(../images/nav_bar.png);
     padding: 5px;
     background-position: center;
 }
