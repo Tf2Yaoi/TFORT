@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <embed src="https://files.catbox.moe/luth5i.mp3" width="0" height="0" autostart=true loop=true controller=false hidden>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fortring/onionring.css">
+    <title>Join TFORT RING</title>
+</head>
+<body>
+    <iframe style="border:none" src="https://evehibi.nekoweb.org/ringlink/" name="ringlink"></iframe>
+    <a class="ringlink" href="https://evehibi.nekoweb.org/ringlink/info.html" target="_blank">
+		<img src="https://evehibi.nekoweb.org/ringlink/button.gif" alt="ringlink - advertise your webring!">
+	</a>
+    <div class="wrapper">
+        <img class="logo" src="images/ring logo.png" height="90px" width="70%" style="align-self: center;">
+        <div class="border">
+            <div class="wrap">
+                <div class="nav">
+                    <nav>
+                        <a href="index.html">About</a>
+                        <a href="rules.html">Rules</a>
+                        <a href="join.html" style="color:#e3d5bc;">Join</a>
+                        <a href="members.html">Mercenaries</a>
+                    </nav>
+                </div>
+                <div class="content">
+                    <h3>Join TFORT RING</h3>
+                    <p>
+                        To join the TFORT RING, please fill out the form below and send it to our email, <span>tfortring@gmail.com</span> <br>Make sure to include a valid URL to your website that you want to add to the webring.<br>If you don't have a 88x31 button, we will use our own!
+                    </p>
+                    <h3>Form</h3>
+                    <p class="form">
+                        Name:<br> 
+                        Website URL:<br>
+                        Description (optional):<br>
+                        Main / Favorite character:<br>
+                        88x31 Button URL (optional):
+                    </p>
+                    <br>
+                    <h3>Widget Code</h3>
+                    <p>Now, paste this code where you'd like the widget to appear!!</p>
+                    <div id="fortring">
+                        <table>
+                            <tr>
+                                <td class='webring-prev'>
+                                    <a href='${sites[previousIndex]}'><img src="https://tfortring.neocities.org/widget/arrow.png" height="40px"></a>
+                                </td>
+                                <td class='webring-info'><a href='https://tfortring.neocities.org/' target="_blank"><img src="https://tfortring.neocities.org/widget/ringlogo.png" height="50px"></a></br>
+                                    <span class='webring-links'>
+                                        <a href='javascript:void(0)' onclick='randomSite()'>random</a> |
+                                        <a href='https://garlic.garden/onionring/'>what?</a></span></td>
+                                    </span>
+                                </td>
+                                <td class='webring-next'>
+                                    <a href='${sites[nextIndex]}'><img src="https://tfortring.neocities.org/widget/arrow2.png" height="40px"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <form>
+                        <textarea readonly="" onclick="this.select();">
+                            <div id='fortring'>
+                                <script type="text/javascript" src="https://tfortring.neocities.org/fortring/onionring-variables.js"></script>
+                                <script type="text/javascript" src="https://tfortring.neocities.org/fortring/onionring-widget.js"></script>
+                            </div>
+                        </textarea>
+                    </form>
+                    <p>And paste this in the <b>head</b> section of your html!</p>
+                    <form>
+                        <textarea readonly="" onclick="this.select();">
+                            <link rel="stylesheet" href="https://tfortring.neocities.org/fortring/onionring.css">
+                        </textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="stamps">
+            <style>
+                .wrapper {
+                    gap: 5px;
+                }
+                .stamps {
+                    border: 9px solid black;
+                    border-image: url(/site/images/border2.png) 8 fill round;
+                    overflow: hidden;
+                    width: 30em;
+                    height: 50px;
+                }
+                .stamp {
+                    animation: marq 10s linear infinite;
+                    display: flex;
+                    gap: 5px;
+                    width: 100%;
+                    flex-direction: row;
+                    height: 100%;
+                }
+            </style>
+            <div class="stamp">
+                <style>
+                    @keyframes marq { from{transform: translate(920px, 0px); } to{transform: translate(-910px, 0px);} }
+                </style>
+                <img src="images/teamstamp.webp">
+                <img src="images/scoutstamp.webp">
+                <img src="images/sollystamp.webp">
+                <img src="images/demostamp.gif">
+                <img src="images/heavystamp.webp">
+                <img src="images/pyrostamp.webp">
+                <img src="images/medicstamp.webp">
+                <img src="images/sniperstamp.gif">
+                <img src="images/engistamp.webp">
+                <img src="images/spystamp.gif">
+            </div>
+        </div>
+    </div>

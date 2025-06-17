@@ -1,0 +1,68 @@
+.html {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 14px;
+    cursor: url(https://files.catbox.moe/aogeaa.cur), auto;
+}
+
+
+.wrapper {
+    margin: 3rem auto 1rem auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+    filter: drop-shadow(5px 10px 10px #000000c0);
+    height: fit-content;
+}
+
+.border {
+    border: 9px solid black;
+    border-image: url(/site/images/border2.png) 8 fill round;
+}
+
+.wrap {
+    text-align: center;
+    background-image: url(/site/images/bg2.png);
+    outline: 3px solid #ffffff;
+    width: 20em;
+    height: 25em;
+    overflow-y: scroll;
+    border: 4px double black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+span {
+    font-family: 'TF2 Build';
+    color: #b35215;
+}
+
+h3 {
+    font-family: 'TF2 Build';
+    color: #4f4944;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'TF2';
+    margin: 5px;
+}
+
+a {
+    color: #90846d;
+    text-decoration: none;
+}
+
+textarea {
+    height: 30px;
+    width: 200px;
+    font-size: 10px;
+    line-height: 8px;
+    border-radius: 2px;
+}
+
+.form {
+    border: 1px solid black;
+    background-color: #ffffff;
+}

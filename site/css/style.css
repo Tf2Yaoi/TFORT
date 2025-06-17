@@ -1,0 +1,110 @@
+.html {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 14px;
+    cursor: url(https://files.catbox.moe/aogeaa.cur), auto;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    background-image: url(/site/images/background_2fort_widescreen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    margin: 3rem auto 1rem auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    filter: drop-shadow(5px 10px 10px #000000c0);
+    height: fit-content;
+}
+
+.border {
+    border: 9px solid black;
+    border-image: url(/site/images/border2.png) 8 fill round;
+}
+
+.wrap {
+    text-align: center;
+background-image: url(/site/images/bg2.png);
+background-position:right top;
+    outline: 3px solid #ffffff;
+    width: 30em;
+    border: 4px double black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    background-image: url(/site/images/nav_bar.png);
+    padding: 5px;
+    background-position: center;
+}
+
+nav {
+    font-family: 'TF2';
+}
+
+span {
+    font-family: 'TF2 Build';
+    color: #b35215;
+}
+
+h3 {
+    font-family: 'TF2 Build';
+    color: #4f4944;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'TF2';
+    margin: 5px;
+}
+
+a {
+    color: #90846d;
+    text-decoration: none;
+}
+
+.footer {
+    height: 40px;
+    background: linear-gradient(#5e564e, #5a5149);
+    width: 100%;
+    color: #c3bfb4;
+    text-align: center;
+}
+
+iframe {
+    position: absolute;
+    top: 80px;
+    left: 430px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+iframe {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+    left: 320px;
+    top: 300px;
+}
+
+.ringlink {
+    position: absolute;
+    z-index: 1;
+    left: 320px;
+    top: 405px;
+}
+
