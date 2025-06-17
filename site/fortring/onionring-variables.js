@@ -11,6 +11,7 @@ var sites = [
 'https://webwelder.neocities.org/',
 'https://starbug.neocities.org/',
 'https://spycest.neocities.org/',
+'https://saniko.nekoweb.org/',
 ];
 
 //the name of the ring
