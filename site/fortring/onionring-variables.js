@@ -12,7 +12,9 @@ var sites = [
 'https://starbug.neocities.org/',
 'https://spycest.neocities.org/',
 'https://saniko.nekoweb.org/',
-'https://pizza.syntropicinteractive.com',
+'https://pizza.syntropicinteractive.com/',
+'https://pastel-skies.nekoweb.org/',
+'https://stonervampire.neocities.org/',
 ];
 
 //the name of the ring
