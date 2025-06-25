@@ -15,6 +15,7 @@ var sites = [
 'https://pizza.syntropicinteractive.com/',
 'https://pastel-skies.nekoweb.org/',
 'https://stonervampire.neocities.org/',
+'https://kids-sati.neocities.org/',
 ];
 
 //the name of the ring
