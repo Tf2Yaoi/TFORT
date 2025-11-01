@@ -16,6 +16,36 @@ var sites = [
 'https://pastel-skies.nekoweb.org/',
 'https://stonervampire.neocities.org/',
 'https://kids-sati.neocities.org/',
+'https://mtfuture.neocities.org/', 
+'https://sumsluvshyenaz.neocities.org',
+'https://spookoku.nekoweb.org/',
+'https://theabsoluterealm.com/',
+'https://deedeedee.ca',
+'https://genosadness.neocities.org/',
+'https://8y7.nekoweb.org/',
+'https://tomsworld.neocities.org/', 
+'https://stoutsytail.blogspot.com/',
+'https://bruisedgh0st.neocities.org/',
+'https://toothspit.neocities.org/',
+'https://hananezumi.neocities.org/',
+'http://themarshe.neocities.org/',
+'https://snakewater.nekoweb.org/',
+'https://scotchzombiedon.neocities.org/',
+'https://maniksharma.xyz/',
+'https://decahedron.neocities.org/',
+'https://tiiimezombie.neocities.org/',
+'https://chiptuneicecream2010.neocities.org/',
+'https://chr0m0dynamic.nekoweb.org/',
+'https://delzeetoons.nekoweb.org/',
+'https://laserboy.nekoweb.org/',
+'http://fruitycircus.com/',
+'https://april.nekoweb.org/',
+'https://that-emo-alien.neocities.org/',
+'http://gob.nekoweb.org/'
+
+
+
+
 ];
 
 //the name of the ring

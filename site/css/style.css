@@ -4,9 +4,18 @@
     cursor: url(https://files.catbox.moe/aogeaa.cur), auto;
 }
 
-body {
-    margin: 0px;
+*{
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
+}
+
+.logo {
+    height: 8em;
+
+}
+
+body {
     background-image: url(../images/background_2fort_widescreen.png);
     background-size: 1920px 1080px;
     background-repeat: no-repeat;
@@ -25,7 +34,7 @@ body {
 .wrapper {
     float: left;
     margin-left: 15em;
-    margin-top: 4em;
+    margin-top: 1em;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -35,6 +44,7 @@ body {
 }
 
 .border {
+    width: fit-content;
     border: 9px solid black;
     border-image: url(../images/border2.png) 8 fill round;
 }
@@ -107,5 +117,24 @@ iframe {
     z-index: 1;
     left: 8.5em;
     top: 405px;
+}
+
+.wrapper {
+    gap: 5px;
+}
+.stamps {
+    border: 9px solid black;
+    border-image: url(../images/border2.png) 8 fill round;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+}
+.stamp {
+    animation: marq 10s linear infinite;
+    display: flex;
+    gap: 5px;
+    width: 30em;
+    flex-direction: row;
+    height: 100%;
 }
 
