@@ -28,7 +28,7 @@ var sites = [
 'https://bruisedgh0st.neocities.org/',
 'https://toothspit.neocities.org/',
 'https://hananezumi.neocities.org/',
-'http://themarshe.neocities.org/',
+'https://themarshe.neocities.org/',
 'https://snakewater.nekoweb.org/',
 'https://scotchzombiedon.neocities.org/',
 'https://maniksharma.xyz/',
@@ -38,7 +38,7 @@ var sites = [
 'https://chr0m0dynamic.nekoweb.org/',
 'https://delzeetoons.nekoweb.org/',
 'https://laserboy.nekoweb.org/',
-'http://fruitycircus.com/',
+'https://fruitycircus.com/',
 'https://april.nekoweb.org/',
 'https://that-emo-alien.neocities.org/',
 'https://gob.nekoweb.org/'
