@@ -41,11 +41,7 @@ var sites = [
 'http://fruitycircus.com/',
 'https://april.nekoweb.org/',
 'https://that-emo-alien.neocities.org/',
-'http://gob.nekoweb.org/'
-
-
-
-
+'https://gob.nekoweb.org/'
 ];
 
 //the name of the ring
