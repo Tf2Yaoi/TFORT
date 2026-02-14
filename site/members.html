@@ -1,460 +1,676 @@
-<html> 
-    <head>
-        <embed src="https://files.catbox.moe/xlhv4z.mp3" width="0" height="0" autostart=true loop=false controller=false hidden>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TFortRing</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/members.css">
-        <link rel="icon" type="image/png" href="images/favicon.png">
+<!DOCTYPE html>
+<html lang="en">
 
-        <style>
-            .wrapper {
-                margin-top: 1em;
-            }
-        </style>
-        <script src="fortring/onionring-variables.js"></script>
-        <script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFORT RING - TF2 WEBRING</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/members.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="fortring/onionring-variables.js"></script>
+    <script>
         // Wait until members.js loads
         document.addEventListener('DOMContentLoaded', () => {
             const countSpan = document.getElementById('member-count');
             if (typeof sites !== 'undefined' && countSpan) {
-            countSpan.textContent = sites.length;
+                countSpan.textContent = sites.length;
             }
         });
-        </script>
-    </head>
-    <body>
-        <img class="mercs" src="images/mercs.png">
-        <iframe style="border:none" src="https://evehibi.nekoweb.org/ringlink/" name="ringlink"></iframe>
-        <a class="ringlink" href="https://evehibi.nekoweb.org/ringlink/info.html" target="_blank">
-            <img src="https://evehibi.nekoweb.org/ringlink/button.gif" alt="ringlink - advertise your webring!">
-        </a>
-        <div class="wrapper">
-            <img class="logo" src="images/ring logo.png">
-            <div class="border">
-                <div class="wrap">
-                    <div class="nav">
-                        <nav>
-                            <a href="index.html">About</a>
-                            <a href="rules.html">Rules</a>
-                            <a href="join.html">Join</a>
-                            <a href="members.html" style="color:#e3d5bc;">Mercenaries</a>
-                        </nav>
-                    </div>
-                    <div class="content">
-                        <h3>Mercenaries (Members)</h3><p>Total members: <span id="member-count"></span></p>
-                        <div id='index'>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/gob.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Gob</span>
-                                        <a href="http://gob.nekoweb.org/" target="_blank">gob.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/spyicon.png"> <span>Spy</span> + Pyro<br>
-                                    basically an art blog
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/critter.webp" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Elliot Entropy</span>
-                                        <a href="https://that-emo-alien.neocities.org/" target="_blank">that-emo-alien.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span> + Scout<br>
-                                    a personal webbed site made by a scenemo fox!
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/amwlight.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>April</span>
-                                        <a href="https://april.nekoweb.org/" target="_blank">april.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/snipericon.png"> <span>Sniper</span> + Medic<br>
-                                    The personal page of a trans girl who's been using GNU/Linux since 2011. I like to share my thoughts, make tutorials, and more!
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/fcbutton.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>fc</span>
-                                        <a href="http://fruitycircus.com/" target="_blank">fruitycircus.com</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/heavyicon.png"> <span>Heavy</span><br>
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/lazer98.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Laser Boy Studios</span>
-                                        <a href="https://laserboy.nekoweb.org" target="_blank">laserboy.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engineer</span><br>
-                                    Creator of Circus Pals and Kinito After Story.
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/delzee.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Delzee</span>
-                                        <a href="https://delzeetoons.nekoweb.org/" target="_blank">delzeetoons.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/heavyicon.png"> <span>Heavy</span> + Medic + Soldier<br>
-                                    I'm a nerdy teenager who likes valve games and UTDR, and writes chicken scratch in HTML when he's free.
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/chr0no.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>chr0m0</span>
-                                        <a href="https://chr0m0dynamic.nekoweb.org/" target="_blank">chr0m0dynamic.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/scouticon.png"> <span>scout</span> + pyro<br>
-                                    welcome 2 the thunderdome
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/tfort.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Hatto</span>
-                                        <a href="https://chiptuneicecream2010.neocities.org/" target="_blank">chiptuneicecream2010.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/tfort.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>tiiimezombie</span>
-                                        <a href="https://tiiimezombie.neocities.org/" target="_blank">tiiimezombie.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/sollyicon.png"> <span>Soldier</span><br>
-                                    Personal work showcase (ttrpg's, web games, etc). Also links to my Soldier competitive rollout maps.
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/hedron.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Samuel</span>
-                                        <a href="https://decahedron.neocities.org/" target="_blank">decahedron.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engineer</span> + Spy<br>
-                                    Personal website where you'll find any interests of mine there! I loved Emesis Blue ^_^
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/very-bad-icon.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>beigestack</span>
-                                        <a href="https://maniksharma.xyz/" target="_blank">maniksharma.xyz</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/heavyicon.png"> <span>Heavy</span><br>
-                                    cool lil website for a duud with wayy tooo many interests
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/cdundee.gif" style="border: 1px solid black; height: 31px; Width: 88px;">
-                                    <div>
-                                        <span>Don/ZRK</span>
-                                        <a href="https://scotchzombiedon.neocities.org/" target="_blank">scotchzombiedon.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/snipericon.png"> <span>Sniper</span> + Demo<br>
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/snake.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Beringer</span>
-                                        <a href="https://snakewater.nekoweb.org/" target="_blank">snakewater.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Medic</span> + Soldier<br>
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/MarsheSlime1.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>MarsheSlime</span>
-                                        <a href="http://themarshe.neocities.org/" target="_blank">themarshe.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span><br>
-                                    Goofy little place where a bunch of living jellybeans run around after i pelt them out of my brain to go reside somewhere.
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/hnmbtn_maki.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Hananezumi HQ</span>
-                                        <a href="https://hananezumi.neocities.org/" target="_blank">hananezumi.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
-                                    a personal website for The Hananezumi Project and website creator's multi-fandom shenanigans
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/tooth.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>MADZ</span>
-                                        <a href="https://toothspit.neocities.org/" target="_blank">toothspit.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
-                                    super cool web palace where the weirdo webmaster runs around in circles
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/ghost.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Jojo</span>
-                                        <a href="https://bruisedgh0st.neocities.org/" target="_blank">bruisedgh0st.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span> + Scout + Soldier + Sniper<br>
-                                    a tired artist just trying their best :)
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/matts.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Matt's Blog</span>
-                                        <a href="https://stoutsytail.blogspot.com/" target="_blank">stoutsytail.blogspot.com</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engineer</span> + Sniper<br>
-                                    Personal Site for updates, shenanigans, and web design
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/tom.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Tom/Concrete</span>
-                                        <a href="https://tomsworld.neocities.org/" target="_blank">tomsworld.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/scouticon.png"> <span>Scout</span> + Medic<br>
-                                    my cool personal website. and i love mediscout!!!
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/8y72.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>8y7</span>
-                                        <a href="https://8y7.nekoweb.org/" target="_blank">8y7.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/scouticon.png"> <span>Scout</span><br>
-                                    Yet another personal website, Part time amateur trader
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/genobot.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Genosad</span>
-                                        <a href="https://genosadness.neocities.org/" target="_blank">genosadness.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
-                                    Home to another Neocitizen with things to see and things to read.
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/tfort.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Dee</span>
-                                        <a href="https://deedeedee.ca" target="_blank">deedeedee.ca</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
-                                    My personal site with a little bit of my everything on it!! Rn that’s my music, art, and a game dev journal >:D
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/absolute-realm.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Superscrouge</span>
-                                        <a href="https://theabsoluterealm.com/" target="_blank">theabsoluterealm.com</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/demoicon.png"> <span>Demoman</span> + Soldier<br>
-                                    the gateway to a world of fun and cool things within my mind.
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/spook.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Airy</span>
-                                        <a href="https://spookoku.nekoweb.org/" target="_blank">spookoku.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span> + Scout + Sniper<br>
-                                    Pyrotastic personal site :)
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/sums.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>sums</span>
-                                        <a href="https://sumsluvshyenaz.neocities.org" target="_blank">sumsluvshyenaz.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span><br>
-                                    just a kickass personal site :)
-                                </p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/tfort.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>MTFuture</span>
-                                        <a href="https://mtfuture.neocities.org/" target="_blank">mtfuture.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br></p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/ks.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Kids Sati</span>
-                                        <a href="https://kids-sati.neocities.org/" target="_blank">kids-sati.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engineer</span><br></p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/sv.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Dahm / Damien</span>
-                                        <a href="https://stonervampire.neocities.org/" target="_blank">stonervampire.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/snipericon.png"> <span>Sniper</span><br>
-                                A scenemo vampire attempting to share himself around the web!</p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/Nova.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Nova</span>
-                                        <a href="https://pastel-skies.nekoweb.org/" target="_blank">pastel-skies.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/sollyicon.png"> <span>Soldier</span>, rest in peace Rick May you absolute <span>legend.</span><br>
-                                Personal website cuz I want my own corner of the internet. I post art!</p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/pizzaperp.gif" style="border: 1px solid black;">
-                                    <div>
-                                        <span>PizzaPerp95</span>
-                                        <a href="https://pizza.syntropicinteractive.com" target="_blank">pizza.syntropicinteractive.com</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/spyicon.png"> <span>Spy</span> + Engi<br></p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/simon.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Simon</span>
-                                        <a href="https://saniko.nekoweb.org/" target="_blank">saniko.nekoweb.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span> + Scout<br>
-                                Retired TF2 SFM content creator, but I still love them all so much!</p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/weaver.png" style="border: 0px solid black;">
-                                    <div>
-                                        <span>Weaver</span>
-                                        <a href="https://spycest.neocities.org/" target="_blank">spycest.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/snipericon.png"><img src="images/spyicon.png"><img src="images/medicicon.png"> <span>Support class</span><br>
-                                Website about my favorite shipping dynamic...with my favorite TF2 character! Maybe, even a little history on shipping.</p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/starbug.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Starbug</span>
-                                        <a href="https://starbug.neocities.org/" target="_blank">starbug.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span> + Spy<br>
-                                Personal website</p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="members/webw3.png" style="border: 1px solid black;">
-                                    <div>
-                                        <span>Marie</span>
-                                        <a href="https://webwelder.neocities.org/" target="_blank">webwelder.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engie</span> + Pyro<br>
-                                Personal website for piki shenanigans</p>
-                            </div>
-                            <div class="member">
-                                <div class="memtit">
-                                    <img src="https://netsqhere.neocities.org/images/netsphere_button2.gif">
-                                    <div>
-                                        <span>Jamie</span>
-                                        <a href="https://netsqhere.neocities.org/" target="_blank">netsqhere.neocities.org</a>
-                                    </div>
-                                </div>
-                                <p>Main / Favorite Character: <img src="images/demoicon.png"> <span>demoman</span><br>
-                                Personal site, creator of the webring !</p>
+    </script>
+</head>
+
+<body>
+    <iframe id="ringlink" width="180" height="180" style="border:none" src="https://evehibi.nekoweb.org/ringlink/" name="ringlink"></iframe>
+    <img id="logo" src="images/ring logo.png">
+    <img class="mercs" src="images/mercs.png">
+    <div class="everything">
+        <div class="all">
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="rules.html">Rules</a>
+                <a href="join.html">Join</a>
+                <a href="members.html">Mercenaries</a>
+            </div>
+            <div class="container">
+                <h1>Mercenaries (Members)</h1>
+                <p>Total members: <span id="member-count"></span></p>
+                <div id="index">
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/meek.png">
+                            <div>
+                                <span>LogiTrail</span>
+                                <a href="https://meek-digital-archive.neocities.org/"
+                                    target="_blank">meek-digital-archive.neocities.org</a>
                             </div>
                         </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/engiicon.png"> <span>Engi</span> + Medic<br>
+                            A silly website for archiving my digital work, and also for fun!
+                        </p>
                     </div>
-                    <div class="footer">
-                        <p>TFORT RING - 2025 to the end of time</p>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="https://i.ibb.co/HW0gNKR/1000051274.png">
+                            <div>
+                                <span>Mac</span>
+                                <a href="https://roflcopterr.nekoweb.org/"
+                                    target="_blank">roflcopterr.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/scouticon.png"> <span>Scout</span><br>
+                            Personal website made as a hobby. Always under construction; Home of many shrines and fun pages! Come check me out :))
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/skel.gif">
+                            <div>
+                                <span>Skeliana's Pagoda</span>
+                                <a href="https://skeliana.neocities.org/" target="_blank">skeliana.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/sollyicon.png"> <span>Soldier</span>!!<br>
+                            Cambodian/SE-Asian-themed humble abode housing my art and interests :3
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="https://files.catbox.moe/wyba3k.jpg">
+                            <div>
+                                <span>Kirayueyx'z Paradise Lost</span>
+                                <a href="https://kirayueyx.neocities.org/" target="_blank">kirayueyx.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/engiicon.png"> <span>Engi</span>!!<br>
+                            Kirayueyx'z Paradise Lost is a mix of drawing, dev, metal, punk, video games, manga, books,
+                            movies, OCs, blogs, and lots of random stuff!1! (≧◡≦) ♡
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/tfort.png">
+                            <div>
+                                <span>Lunarnotfound</span>
+                                <a href="https://lunarnotfound.neocities.org/"
+                                    target="_blank">lunarnotfound.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span>!!<br>
+                            a website about all things me! kind of a WIP right now :P
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/kerchunkle.png">
+                            <div>
+                                <span>Kerchunkle</span>
+                                <a href="https://kerchunkleknoughts.github.io/mainblog/index.html"
+                                    target="_blank">kerchunkleknoughts.github.io</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/sollyicon.png"> <span>Soldier</span><br>
+                            this is a repository for blog posts, projects and more! I hope you find something
+                            interesting while you are here!
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/julian.png">
+                            <div>
+                                <span>julian</span>
+                                <a href="https://julian.nekoweb.org/" target="_blank">julian.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
+                            a fun little project so i can spend my free time doing something meaningful instead of going
+                            on social media!
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img
+                                src="https://file.garden/aGH4tniW5xIQj4dH/Web%20Graphics/MishCoded-Buttons/MishCoded-Starscream-Button-88x31.png">
+                            <div>
+                                <span>MishCoded</span>
+                                <a href="https://mishcoded.nekoweb.org/" target="_blank">mishcoded.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/scouticon.png"> <span>Scout</span><br>
+                            A silly little site made by a silly little guy, for silly little guys
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="https://i.postimg.cc/mZV7gM6F/download.png">
+                            <div>
+                                <span>i eat people</span>
+                                <a href="https://ieatpeople.neocities.org/" target="_blank">ieatpeople.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span><br>
+                            a personal blog of the sexiest man alive, plus other oddities
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="https://i.postimg.cc/90z0M4r7/simplyjason-button.png">
+                            <div>
+                                <span>Jason</span>
+                                <a href="https://simplyjason.neocities.org/"
+                                    target="_blank">simplyjason.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span> + medic<br>
+                            my little hub for hobbies, interests, and information! a perpetual work-in-progress born out
+                            of love for my fixations
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="https://i.postimg.cc/WzPjRhgy/button2.gif">
+                            <div>
+                                <span>Mew</span>
+                                <a href="https://mewsdiary.nekoweb.org/" target="_blank">mewsdiary.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/spyicon.png"> <span>Spy</span><br>
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="https://i.postimg.cc/W3GCkSJL/necobutton.gif">
+                            <div>
+                                <span>Neco</span>
+                                <a href="https://necogutz.neocities.org/" target="_blank">necogutz.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/snipericon.png"> <span>Sniper</span> + medic<br>
+                            My personal space where I post my thoughts and graphics, inspired by the old geocities days
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="https://i.postimg.cc/8P5XpTwg/jack-dawlia.gif">
+                            <div>
+                                <span>Es</span>
+                                <a href="https://jack-dawlia.neocities.org/"
+                                    target="_blank">jack-dawlia.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>
+                            Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span> + engie<br>
+                            A personal site filled with whatever i feel like :]
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/gob.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Gob</span>
+                                <a href="http://gob.nekoweb.org/" target="_blank">gob.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/spyicon.png"> <span>Spy</span> + Pyro<br>
+                            basically an art blog
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/critter.webp" style="border: 1px solid black;">
+                            <div>
+                                <span>Elliot Entropy</span>
+                                <a href="https://that-emo-alien.neocities.org/"
+                                    target="_blank">that-emo-alien.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span> + Scout<br>
+                            a personal webbed site made by a scenemo fox!
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/amwlight.png" style="border: 1px solid black;">
+                            <div>
+                                <span>April</span>
+                                <a href="https://april.nekoweb.org/" target="_blank">april.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/snipericon.png"> <span>Sniper</span> + Medic<br>
+                            The personal page of a trans girl who's been using GNU/Linux since 2011. I like to share my
+                            thoughts, make tutorials, and more!
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/fcbutton.png" style="border: 1px solid black;">
+                            <div>
+                                <span>fc</span>
+                                <a href="http://fruitycircus.com/" target="_blank">fruitycircus.com</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/heavyicon.png"> <span>Heavy</span><br>
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/lazer98.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Laser Boy Studios</span>
+                                <a href="https://laserboy.neocities.org/" target="_blank">laserboy.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engineer</span><br>
+                            Creator of Circus Pals and Kinito After Story.
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/delzee.png" style="border: 1px solid black;">
+                            <div>
+                                <span>Delzee</span>
+                                <a href="https://delzeetoons.nekoweb.org/" target="_blank">delzeetoons.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/heavyicon.png"> <span>Heavy</span> + Medic +
+                            Soldier<br>
+                            I'm a nerdy teenager who likes valve games and UTDR, and writes chicken scratch in HTML when
+                            he's free.
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/chr0no.png" style="border: 1px solid black;">
+                            <div>
+                                <span>chr0m0</span>
+                                <a href="https://chr0m0dynamic.nekoweb.org/"
+                                    target="_blank">chr0m0dynamic.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/scouticon.png"> <span>scout</span> + pyro<br>
+                            welcome 2 the thunderdome
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/tfort.png" style="border: 1px solid black;">
+                            <div>
+                                <span>Hatto</span>
+                                <a href="https://chiptuneicecream2010.neocities.org/"
+                                    target="_blank">chiptuneicecream2010.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/tfort.png" style="border: 1px solid black;">
+                            <div>
+                                <span>tiiimezombie</span>
+                                <a href="https://tiiimezombie.neocities.org/"
+                                    target="_blank">tiiimezombie.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/sollyicon.png"> <span>Soldier</span><br>
+                            Personal work showcase (ttrpg's, web games, etc). Also links to my Soldier competitive
+                            rollout maps.
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/hedron.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Samuel</span>
+                                <a href="https://decahedron.neocities.org/" target="_blank">decahedron.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engineer</span> + Spy<br>
+                            Personal website where you'll find any interests of mine there! I loved Emesis Blue ^_^
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/very-bad-icon.png" style="border: 1px solid black;">
+                            <div>
+                                <span>beigestack</span>
+                                <a href="https://maniksharma.xyz/" target="_blank">maniksharma.xyz</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/heavyicon.png"> <span>Heavy</span><br>
+                            cool lil website for a duud with wayy tooo many interests
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/cdundee.gif" style="border: 1px solid black; height: 31px; Width: 88px;">
+                            <div>
+                                <span>Don/ZRK</span>
+                                <a href="https://scotchzombiedon.neocities.org/"
+                                    target="_blank">scotchzombiedon.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/snipericon.png"> <span>Sniper</span> + Demo<br>
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/snake.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Beringer</span>
+                                <a href="https://snakewater.nekoweb.org/" target="_blank">snakewater.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Medic</span> + Soldier<br>
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/MarsheSlime1.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>MarsheSlime</span>
+                                <a href="http://themarshe.neocities.org/" target="_blank">themarshe.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span><br>
+                            Goofy little place where a bunch of living jellybeans run around after i pelt them out of my
+                            brain to go reside somewhere.
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/hnmbtn_maki.png" style="border: 1px solid black;">
+                            <div>
+                                <span>Hananezumi HQ</span>
+                                <a href="https://hananezumi.neocities.org/" target="_blank">hananezumi.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
+                            a personal website for The Hananezumi Project and website creator's multi-fandom shenanigans
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/tooth.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>MADZ</span>
+                                <a href="https://toothspit.neocities.org/" target="_blank">toothspit.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
+                            super cool web palace where the weirdo webmaster runs around in circles
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/ghost.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Jojo</span>
+                                <a href="https://bruisedgh0st.neocities.org/"
+                                    target="_blank">bruisedgh0st.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span> + Scout +
+                            Soldier + Sniper<br>
+                            a tired artist just trying their best :)
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/matts.png" style="border: 1px solid black;">
+                            <div>
+                                <span>Matt's Blog</span>
+                                <a href="https://stoutsytail.blogspot.com/" target="_blank">stoutsytail.blogspot.com</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engineer</span> + Sniper<br>
+                            Personal Site for updates, shenanigans, and web design
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/tom.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Tom/Concrete</span>
+                                <a href="https://tomsworld.neocities.org/" target="_blank">tomsworld.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/scouticon.png"> <span>Scout</span> + Medic<br>
+                            my cool personal website. and i love mediscout!!!
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/8y72.png" style="border: 1px solid black;">
+                            <div>
+                                <span>8y7</span>
+                                <a href="https://8y7.nekoweb.org/" target="_blank">8y7.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/scouticon.png"> <span>Scout</span><br>
+                            Yet another personal website, Part time amateur trader
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/genobot.png" style="border: 1px solid black;">
+                            <div>
+                                <span>Genosad</span>
+                                <a href="https://genosadness.neocities.org/"
+                                    target="_blank">genosadness.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
+                            Home to another Neocitizen with things to see and things to read.
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/tfort.png" style="border: 1px solid black;">
+                            <div>
+                                <span>Dee</span>
+                                <a href="https://deedeedee.ca" target="_blank">deedeedee.ca</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br>
+                            My personal site with a little bit of my everything on it!! Rn that’s my music, art, and a
+                            game dev journal >:D
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/absolute-realm.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Superscrouge</span>
+                                <a href="https://theabsoluterealm.com/" target="_blank">theabsoluterealm.com</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/demoicon.png"> <span>Demoman</span> + Soldier<br>
+                            the gateway to a world of fun and cool things within my mind.
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/spook.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Airy</span>
+                                <a href="http://spookoku.net/" target="_blank">spookoku.net</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span> + Scout +
+                            Sniper<br>
+                            Pyrotastic personal site :)
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/sums.png" style="border: 1px solid black;">
+                            <div>
+                                <span>sums</span>
+                                <a href="https://sumsluvshyenaz.neocities.org"
+                                    target="_blank">sumsluvshyenaz.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span><br>
+                            just a kickass personal site :)
+                        </p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/tfort.png" style="border: 1px solid black;">
+                            <div>
+                                <span>MTFuture</span>
+                                <a href="https://mtfuture.neocities.org/" target="_blank">mtfuture.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span><br></p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/ks.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Kids Sati</span>
+                                <a href="https://kids-sati.neocities.org/" target="_blank">kids-sati.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engineer</span><br></p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/sv.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Dahm / Damien</span>
+                                <a href="https://stonervampire.neocities.org/"
+                                    target="_blank">stonervampire.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/snipericon.png"> <span>Sniper</span><br>
+                            A scenemo vampire attempting to share himself around the web!</p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/Nova.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>Nova</span>
+                                <a href="https://pastel-skies.nekoweb.org/" target="_blank">pastel-skies.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/sollyicon.png"> <span>Soldier</span>, rest in
+                            peace Rick May you absolute <span>legend.</span><br>
+                            Personal website cuz I want my own corner of the internet. I post art!</p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/pizzaperp.gif" style="border: 1px solid black;">
+                            <div>
+                                <span>PizzaPerp95</span>
+                                <a href="https://pizza.syntropicinteractive.com"
+                                    target="_blank">pizza.syntropicinteractive.com</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/spyicon.png"> <span>Spy</span> + Engi<br></p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/simon.png" style="border: 1px solid black;">
+                            <div>
+                                <span>Simon</span>
+                                <a href="https://saniko.nekoweb.org/" target="_blank">saniko.nekoweb.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/medicicon.png"> <span>Medic</span> + Scout<br>
+                            Retired TF2 SFM content creator, but I still love them all so much!</p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/weaver.png" style="border: 0px solid black;">
+                            <div>
+                                <span>Weaver</span>
+                                <a href="https://spycest.neocities.org/" target="_blank">spycest.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/snipericon.png"><img
+                                src="images/spyicon.png"><img src="images/medicicon.png"> <span>Support class</span><br>
+                            Website about my favorite shipping dynamic...with my favorite TF2 character! Maybe, even a
+                            little history on shipping.</p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/starbug.png" style="border: 1px solid black;">
+                            <div>
+                                <span>Starbug</span>
+                                <a href="https://starbug.neocities.org/" target="_blank">starbug.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/pyroicon.png"> <span>Pyro</span> + Spy<br>
+                            Personal website</p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="members/webw3.png" style="border: 1px solid black;">
+                            <div>
+                                <span>Marie</span>
+                                <a href="https://webwelder.neocities.org/" target="_blank">webwelder.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/engiicon.png"> <span>Engie</span> + Pyro<br>
+                            Personal website for piki shenanigans</p>
+                    </div>
+                    <div class="member">
+                        <div class="memtit">
+                            <img src="https://netsqhere.neocities.org/images/netsphere_button2.gif">
+                            <div>
+                                <span>Jamie</span>
+                                <a href="https://netsqhere.neocities.org/" target="_blank">netsqhere.neocities.org</a>
+                            </div>
+                        </div>
+                        <p>Main / Favorite Character: <img src="images/demoicon.png"> <span>demoman</span><br>
+                            Personal site, creator of the webring !</p>
                     </div>
                 </div>
             </div>
+            <div class="footer">
+                <p>TFORT RING - 2025 to the end of time</p>
+            </div>
         </div>
-    </body>
+        <div class="stamps">
+            <div class="stamp">
+                <style>
+                    @keyframes marq {
+                        from {
+                            transform: translate(920px, 0px);
+                        }
+
+                        to {
+                            transform: translate(-910px, 0px);
+                        }
+                    }
+                </style>
+                <img src="images/teamstamp.webp">
+                <img src="images/scoutstamp.webp">
+                <img src="images/sollystamp.webp">
+                <img src="images/demostamp.gif">
+                <img src="images/heavystamp.webp">
+                <img src="images/pyrostamp.webp">
+                <img src="images/medicstamp.webp">
+                <img src="images/sniperstamp.gif">
+                <img src="images/engistamp.webp">
+                <img src="images/spystamp.gif">
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

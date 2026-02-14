@@ -1,27 +1,55 @@
-.html {
-    font-family: arial,helvetica,sans-serif;
-    font-size: 14px;
-    cursor: url(https://files.catbox.moe/aogeaa.cur), auto;
-}
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.logo {
-    height: 8em;
-
-}
-
-body {
+html {
     background-image: url(../images/background_2fort_widescreen.png);
     background-size: 1920px 1080px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'TF2', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#logo {
+    height: 100px;
+    position: absolute;
+    z-index: 5;
+    margin-top: 20px;
+    margin-left: -300px;
+}
+
+#ringlink {
+    margin-top: 150px;
+    position: absolute;
+    z-index: 5;
+    margin-right: 750px;
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+.all {
+    width: 550px;
+    height: fit-content;
+    display: flex;
+    gap: 0;
+    outline: 2px solid white;
+    border: 1px dashed black;
+    border-radius: 5px;
+    flex-direction: column;
+    margin-bottom: 5px;
 }
 
 .mercs {
@@ -31,104 +59,88 @@ body {
     right: 0px;
 }
 
-.wrapper {
-    float: left;
-    margin-left: 15em;
-    margin-top: 1em;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    filter: drop-shadow(5px 10px 10px #000000c0);
-    height: fit-content;
-}
 
-.border {
-    width: fit-content;
-    border: 9px solid black;
-    border-image: url(../images/border2.png) 8 fill round;
-}
-
-.wrap {
-    text-align: center;
-background-image: url(../images/bg2.png);
-background-position:right top;
-    outline: 3px solid #ffffff;
-    width: 30em;
-    border: 4px double black;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
+.header {
+    background-image: url(mercs.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 330px;
 }
 
 .nav {
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 5px;
-    background-image: url(../images/nav_bar.png);
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 0;
+    justify-content: center;
+    height: 50px;
     padding: 5px;
-    background-position: center;
+    background-color: #e3e2e2;
+    text-align: center;
 }
 
-nav {
-    font-family: 'TF2';
-}
-
-span {
+.nav a {
+    flex-grow: 1;
+    font-size: larger;
+    border: 1px solid #d1ccc7;
+    background-color: #d1ccc7;
+    height: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #4f4944;
     font-family: 'TF2 Build';
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nav a:hover {
     color: #b35215;
 }
 
-h3 {
-    font-family: 'TF2 Build';
-    color: #4f4944;
-    letter-spacing: 1px;
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #d1ccc7;
+    padding: 5px;
 }
 
-p {
-    font-family: 'TF2';
-    margin: 5px;
-}
 
+.container p,
 a {
-    color: #90846d;
-    text-decoration: none;
+    font-family: 'TF2';
+    color: #363636;
+    margin-top: 5px;
+}
+
+.container a:hover {
+    color: #b35215;
+}
+
+h1 {
+    color: #b35215;
+    margin: 2px;
+    font-family: 'TF2 Build';
 }
 
 .footer {
-    height: 40px;
+    height: 30px;
     background: linear-gradient(#5e564e, #5a5149);
     width: 100%;
     color: #c3bfb4;
     text-align: center;
+    padding: 5px;
 }
 
-iframe {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    z-index: 1;
-    left: 8em;
-    top: 300px;
+.footer p {
+    margin: 0;
 }
 
-.ringlink {
-    position: absolute;
-    z-index: 1;
-    left: 8.5em;
-    top: 405px;
-}
-
-.wrapper {
-    gap: 5px;
-}
 .stamps {
-    border: 9px solid black;
-    border-image: url(../images/border2.png) 8 fill round;
-    overflow: hidden;
-    width: 100%;
+    width: 550px;
     height: 50px;
+    overflow: hidden;
 }
+
 .stamp {
     animation: marq 10s linear infinite;
     display: flex;
@@ -138,3 +150,20 @@ iframe {
     height: 100%;
 }
 
+span {
+    color: #b35215;
+    font-family: 'TF2 Build';
+}
+
+textarea {
+    height: 30px;
+    width: 200px;
+    font-size: 10px;
+    line-height: 8px;
+    border-radius: 2px;
+}
+
+.form {
+    border: 1px solid black;
+    background-color: #ffffff;
+}

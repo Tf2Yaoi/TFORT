@@ -18,7 +18,7 @@ var sites = [
 'https://kids-sati.neocities.org/',
 'https://mtfuture.neocities.org/', 
 'https://sumsluvshyenaz.neocities.org',
-'https://spookoku.nekoweb.org/',
+'http://spookoku.net/',
 'https://theabsoluterealm.com/',
 'https://deedeedee.ca',
 'https://genosadness.neocities.org/',
@@ -37,11 +37,24 @@ var sites = [
 'https://chiptuneicecream2010.neocities.org/',
 'https://chr0m0dynamic.nekoweb.org/',
 'https://delzeetoons.nekoweb.org/',
-'https://laserboy.nekoweb.org/',
+'https://laserboy.neocities.org/',
 'https://fruitycircus.com/',
 'https://april.nekoweb.org/',
 'https://that-emo-alien.neocities.org/',
-'https://gob.nekoweb.org/'
+'https://gob.nekoweb.org/',
+'https://jack-dawlia.neocities.org/',
+'https://roflcopterr.nekoweb.org/',
+'https://necogutz.neocities.org/',
+'https://mewsdiary.nekoweb.org/',
+'https://simplyjason.neocities.org/',
+'https://ieatpeople.neocities.org/',
+'https://mishcoded.nekoweb.org/',
+'https://julian.nekoweb.org/',
+'https://kerchunkleknoughts.github.io/mainblog/',
+'https://lunarnotfound.neocities.org/',
+'https://kirayueyx.neocities.org/',
+'https://skeliana.neocities.org/',
+'https://meek-digital-archive.neocities.org/'
 ];
 
 //the name of the ring
