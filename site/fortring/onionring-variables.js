@@ -54,7 +54,10 @@ var sites = [
 'https://lunarnotfound.neocities.org/',
 'https://kirayueyx.neocities.org/',
 'https://skeliana.neocities.org/',
-'https://meek-digital-archive.neocities.org/'
+'https://meek-digital-archive.neocities.org/',
+'https://gug.nekoweb.org/',
+'https://ytpdomo711.neocities.org/',
+'https://grumpmcdump.neocities.org/'
 ];
 
 //the name of the ring
